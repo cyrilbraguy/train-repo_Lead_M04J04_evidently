@@ -87,4 +87,4 @@ jobs:
             --ref "${{ github.ref_name }}" \
             -f register_alias=challenger
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
