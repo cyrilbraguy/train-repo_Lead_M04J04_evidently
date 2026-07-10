@@ -17,8 +17,8 @@ import boto3
 import pandas as pd
 
 # --- Configuration prod ---
-BUCKET = "cyrils3-demo/continous_train/"
-PREFIX = "data/clean/ibm_predictions/"
+BUCKET = "cyrils3-demo"
+PREFIX = "continous_train/data/clean/ibm_predictions/"
 REFERENCE_URL = (
     "https://full-stack-assets.s3.eu-west-3.amazonaws.com/"
     "Deployment/ibm_hr_attrition.xlsx"
